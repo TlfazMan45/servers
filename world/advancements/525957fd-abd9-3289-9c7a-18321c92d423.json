@@ -508,6 +508,7 @@
       "rotten_flesh": "2025-07-02 11:14:11 +0000",
       "enchanted_golden_apple": "2025-06-27 22:02:58 +0000",
       "cooked_mutton": "2025-06-26 21:22:38 +0000",
+      "mushroom_stew": "2025-07-11 20:23:55 +0000",
       "cooked_beef": "2025-06-26 21:03:40 +0000",
       "porkchop": "2025-06-29 20:07:39 +0000",
       "golden_carrot": "2025-07-10 13:34:42 +0000"
@@ -841,12 +842,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-07-09 23:45:00 +0000",
+      "minecraft:blaze": "2025-07-11 19:51:50 +0000",
       "minecraft:skeleton": "2025-06-26 21:25:06 +0000",
       "minecraft:zombified_piglin": "2025-07-10 13:38:47 +0000",
       "minecraft:witch": "2025-07-04 12:14:19 +0000",
+      "minecraft:wither_skeleton": "2025-07-11 19:52:48 +0000",
       "minecraft:ravager": "2025-07-09 23:48:46 +0000",
+      "minecraft:ghast": "2025-07-11 20:11:38 +0000",
+      "minecraft:piglin": "2025-07-11 20:02:54 +0000",
       "minecraft:vindicator": "2025-07-09 23:45:02 +0000",
       "minecraft:enderman": "2025-07-08 21:39:57 +0000",
+      "minecraft:magma_cube": "2025-07-11 20:03:02 +0000",
       "minecraft:spider": "2025-06-26 21:27:41 +0000",
       "minecraft:vex": "2025-07-09 23:50:40 +0000",
       "minecraft:zombie": "2025-06-26 21:33:36 +0000",
@@ -7288,6 +7294,24 @@
   "minecraft:adventure/hero_of_the_village": {
     "criteria": {
       "hero_of_the_village": "2025-07-09 23:51:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-11 19:52:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-07-11 20:07:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-07-11 20:17:55 +0000"
     },
     "done": true
   },
