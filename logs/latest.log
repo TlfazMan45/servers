@@ -1,10 +1,10 @@
-[12:26:24] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
-[12:26:24] [main/WARN]: Warnings were found!
+[11:43:49] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
+[11:43:50] [main/WARN]: Warnings were found!
  - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends version 4.0.0 or later of modmenu, which is missing!
 	 - You should install version 4.0.0 or later of modmenu for the optimal experience.
  - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends any version of yet-another-config-lib, which is missing!
 	 - You should install any version of yet-another-config-lib for the optimal experience.
-[12:26:24] [main/INFO]: Loading 96 mods:
+[11:43:50] [main/INFO]: Loading 95 mods:
 	- c2me 0.2.0+alpha.11.72
 	   |-- c2me-base 0.2.0+alpha.11.72
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.72
@@ -114,269 +114,104 @@
 	- spark 1.10.58
 	- tpshud 1.7.0+1.20.3
 	   \-- me_obsilabor_alert 1.0.8
-	- voicechat 1.20.4-2.5.22
-	   \-- fabric-key-binding-api-v1 1.0.39+f4b7e42432
-[12:26:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Server/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:26:25] [main/INFO]: Compatibility level set to JAVA_16
-[12:26:25] [main/INFO]: Compatibility level set to JAVA_17
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[12:26:25] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:26:25] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[12:26:25] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[12:26:25] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[12:26:25] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[12:26:25] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[12:26:25] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
-[12:26:26] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[12:26:27] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[12:26:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12:26:39] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
-[12:26:39] [main/INFO]: [voicechat] Compatibility version 18
-[12:26:39] [main/INFO]: [voicechat] Loading plugins
-[12:26:39] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[12:26:39] [main/INFO]: [voicechat] Initializing plugins
-[12:26:39] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[12:26:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:26:40] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
-[12:26:43] [main/INFO]: Loaded 7 recipes
-[12:26:43] [main/INFO]: Loaded 1290 advancements
-[12:26:44] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.749 ms
-[12:26:44] [Server thread/INFO]: Starting background profiler...
-[12:26:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[12:26:45] [Server thread/INFO]: Loading properties
-[12:26:45] [Server thread/INFO]: Default game type: SURVIVAL
-[12:26:45] [Server thread/INFO]: Generating keypair
-[12:26:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:26:45] [Server thread/INFO]: Using epoll channel type
-[12:26:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:26:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:26:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:26:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:26:45] [Server thread/INFO]: Preparing level "world"
-[12:26:45] [Server thread/INFO]: Enforcing safe world random access
-[12:26:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:26:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:55] [Server thread/INFO]: Preparing spawn area: 0%
-[12:26:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:26:57] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[12:26:58] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[12:26:58] [Worker-Main-1/INFO]: Preparing spawn area: 11%
-[12:26:59] [Worker-Main-1/INFO]: Preparing spawn area: 11%
-[12:26:59] [Worker-Main-1/INFO]: Preparing spawn area: 11%
-[12:27:00] [Worker-Main-1/INFO]: Preparing spawn area: 14%
-[12:27:00] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[12:27:01] [Worker-Main-1/INFO]: Preparing spawn area: 19%
-[12:27:01] [Worker-Main-1/INFO]: Preparing spawn area: 25%
-[12:27:01] [Server thread/INFO]: Time elapsed: 10415 ms
-[12:27:01] [Server thread/INFO]: Done (16.502s)! For help, type "help"
-[12:27:02] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[12:27:02] [Server thread/INFO]: [voicechat] Using the Minecraft servers port as voice chat port
-[12:27:02] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 25565
-[12:41:32] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:44206] logged in with entity id 139 at (260.265029412604, 75.0, 706.824523340935)
-[12:41:32] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[12:41:32] [Server thread/INFO]: Kofta_Man joined the game
-[12:41:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[13:01:01] [Server thread/INFO]: [Not Secure] [Server] A7o7
-[13:01:08] [Server thread/INFO]: [Not Secure] <Kofta_Man> HI
-[13:01:18] [Server thread/INFO]: [Not Secure] [Server] eh hi de
-[13:01:38] [Server thread/INFO]: [Not Secure] <Kofta_Man> M3sh
-[13:01:42] [Server thread/INFO]: [Not Secure] <Kofta_Man> m3lsh
-[13:09:52] [Server thread/INFO]: [Not Secure] <Kofta_Man> فففل
-[13:17:01] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:35608] logged in with entity id 11363 at (337.76249998807907, 63.0, 818.3000000119209)
-[13:17:02] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:17:03] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[13:17:03] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[13:29:54] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:29:54] [Server thread/INFO]: Tlfaz_Man left the game
-[13:29:54] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[13:30:50] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:58686] logged in with entity id 15417 at (260.42053861387683, 75.0, 680.349295614912)
-[13:30:50] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:30:51] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[13:30:51] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[13:35:24] [Server thread/INFO]: Kofta_Man was slain by Tlfaz_Man
-[13:37:01] [Server thread/INFO]: 3boOd[local] logged in with entity id 16753 at (82.5, 64.0, 106.5)
-[13:37:01] [Server thread/INFO]: 3boOd joined the game
-[13:37:09] [Server thread/INFO]: 3boOd was slain by Tlfaz_Man
-[13:37:09] [Server thread/INFO]: 3boOd lost connection: 3boOd died
-[13:37:09] [Server thread/INFO]: 3boOd left the game
-[13:37:09] [Server thread/INFO]: [voicechat] Disconnecting client 3boOd
-[13:37:25] [Server thread/INFO]: 3boOd[local] logged in with entity id 16791 at (259.7206546105392, 75.0, 681.0928825614832)
-[13:37:25] [Server thread/INFO]: 3boOd joined the game
-[13:37:26] [Thread-16/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
-[13:37:27] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:44026] logged in with entity id 16792 at (187.3731128605098, 74.0, 248.34452114453336)
-[13:37:27] [Server thread/INFO]: Blub_14 joined the game
-[13:37:30] [Server thread/INFO]: 3boOd lost connection: Killed
-[13:37:30] [Server thread/INFO]: 3boOd left the game
-[13:37:30] [Server thread/INFO]: [voicechat] Disconnecting client 3boOd
-[13:37:31] [Server thread/INFO]: [voicechat] Received secret request of Blub_14 (18)
-[13:37:31] [Server thread/INFO]: [voicechat] Sent secret to Blub_14
-[13:37:47] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> Blub_14 I want your head
-[13:38:05] [Server thread/INFO]: [Not Secure] <Blub_14> come and get it
-[13:38:20] [Server thread/INFO]: [Not Secure] <Blub_14> tego dis ?
-[13:38:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4055ms or 81 ticks behind
-[13:38:57] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> enta msh ht3ml el creeper farm?
-[13:39:27] [Server thread/INFO]: [Not Secure] <Blub_14> 2shta bs mstny body
-[13:39:37] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> body hyl3b 7
-[13:41:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2373ms or 47 ticks behind
-[13:42:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2168ms or 43 ticks behind
-[13:42:45] [Server thread/INFO]: [Not Secure] <Blub_14> 3ady hb2a ashof b2a
-[13:43:09] [Server thread/WARN]: Blub_14 moved too quickly! -0.42715273788269315,-19.288122031189644,-1.207401492890483
-[13:44:07] [Server thread/INFO]: [Not Secure] <Blub_14> feen el blaze rods bta3ty
-[13:45:07] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:45:07] [Server thread/INFO]: Tlfaz_Man left the game
-[13:45:07] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[13:49:08] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:55224] logged in with entity id 22964 at (321.01975469222384, 79.0, 818.5035921856787)
-[13:49:08] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:49:09] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[13:49:09] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[13:49:14] [Server thread/INFO]: [Not Secure] <Blub_14> Tlfaz_Man
-[13:49:16] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> ؟
-[13:49:19] [Server thread/INFO]: [Not Secure] <Blub_14> 3ayzk fy 7war
-[13:49:26] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> ?
-[13:49:31] [Server thread/INFO]: [Not Secure] <Blub_14> duel
-[13:49:36] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> msh 3ayz
-[13:49:43] [Server thread/INFO]: [Not Secure] <Blub_14> leh?
-[13:49:44] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> 7agty ad3f a9lan
-[13:49:57] [Server thread/INFO]: [Not Secure] <Blub_14> mm s7
-[13:50:34] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:50:34] [Server thread/INFO]: Tlfaz_Man left the game
-[13:50:34] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[13:50:35] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:38696] logged in with entity id 23632 at (260.4269302231775, 75.0, 695.3000000119209)
-[13:50:35] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:50:35] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[13:50:35] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[13:50:39] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:50:39] [Server thread/INFO]: Tlfaz_Man left the game
-[13:50:39] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[13:51:47] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:56570] logged in with entity id 24095 at (261.5841999993403, 75.0, 696.9987161852945)
-[13:51:47] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:51:48] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[13:51:48] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[13:53:25] [Server thread/INFO]: Kofta_Man lost connection: Timed out
-[13:53:25] [Server thread/INFO]: Kofta_Man left the game
-[13:53:25] [Server thread/INFO]: [voicechat] Disconnecting client Kofta_Man
-[13:53:26] [Server thread/WARN]: handleDisconnection() called twice
-[13:54:36] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> bs ya 7abiby
-[13:54:47] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> enta bt3ml eh
-[13:54:58] [Server thread/INFO]: [Not Secure] <Blub_14> eh da
-[13:55:08] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> eh ely enta 3mlto
-[13:55:12] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> mmkn tmshy
-[13:55:19] [Server thread/INFO]: [Not Secure] <Blub_14> m7ttsh el minecarts
-[13:55:30] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> ent bt3ml eh hna
-[13:55:38] [Server thread/INFO]: [Not Secure] <Blub_14> bb3bs
-[13:55:42] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> tb emshy
-[13:56:29] [Server thread/WARN]: Blub_14 moved too quickly! 3.665566051716155,10.620392461181424,0.6273511652574371
-[13:58:57] [Server thread/WARN]: Blub_14 moved wrongly!
-[14:13:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=223, y=62, z=286} class_2338{x=225, y=61, z=286}
-[14:55:07] [Server thread/INFO]: [Not Secure] <Blub_14> eh?
-[14:55:10] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> ?
-[14:55:23] [Server thread/INFO]: [Not Secure] <Blub_14> knt 3ayz 7aga?"
-[14:55:41] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> knt bdwr 3la swamp we ana rag3 3det mn fo2k
-[14:55:50] [Server thread/INFO]: [Not Secure] <Blub_14> l2et wa7d?
-[14:55:50] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> l2et creeper nzlt a2tlo
-[14:55:52] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> la2
-[15:00:21] [Server thread/INFO]: Blub_14 lost connection: Timed out
-[15:00:21] [Server thread/INFO]: Blub_14 left the game
-[15:00:21] [Server thread/INFO]: [voicechat] Disconnecting client Blub_14
-[15:00:21] [Server thread/WARN]: handleDisconnection() called twice
-[15:00:23] [Server thread/INFO]: Tlfaz_Man lost connection: Timed out
-[15:00:23] [Server thread/INFO]: Tlfaz_Man left the game
-[15:00:23] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[15:01:08] [Thread-20/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
-[15:01:09] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:42920] logged in with entity id 72273 at (182.23747323156778, 68.0, 242.4893539733697)
-[15:01:09] [Server thread/INFO]: Blub_14 joined the game
-[15:01:09] [Server thread/INFO]: [voicechat] Received secret request of Blub_14 (18)
-[15:01:09] [Server thread/INFO]: [voicechat] Sent secret to Blub_14
-[15:01:31] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:41356] logged in with entity id 72566 at (330.73562163330655, 74.92159999847412, 814.3557658619119)
-[15:01:31] [Server thread/INFO]: Tlfaz_Man joined the game
-[15:01:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10718ms or 214 ticks behind
-[15:01:41] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[15:01:41] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[15:01:41] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> ?
-[15:09:38] [Server thread/INFO]: [Tlfaz_Man: Set own game mode to Creative Mode]
-[15:09:39] [Server thread/INFO]: [Tlfaz_Man: Set own game mode to Survival Mode]
-[15:10:52] [Server thread/INFO]: [Not Secure] <Blub_14> ?"
-[15:48:20] [Server thread/INFO]: Villager class_1646['Villager'/81998, l='ServerLevel[world]', x=333.50, y=59.00, z=833.30] died, message: 'Villager suffocated in a wall'
-[16:06:33] [Server thread/WARN]: Blub_14 moved too quickly! -1.1342300797608118,-2.4201937721562103,-17.95552860706573
-[16:06:38] [Server thread/WARN]: Blub_14 moved too quickly! 0.1213382160636911,-3.681532699622892,-17.739365604649947
-[16:07:19] [Server thread/INFO]: Villager class_1646['Villager'/85981, l='ServerLevel[world]', x=333.30, y=59.00, z=832.99] died, message: 'Villager suffocated in a wall'
-[16:16:21] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:57154] logged in with entity id 93131 at (262.9021343012342, 81.5, 688.7849951710144)
-[16:16:21] [Server thread/INFO]: 3mkbody joined the game
-[16:16:39] [Server thread/INFO]: [Not Secure] <3mkbody> hii
-[16:21:59] [Server thread/INFO]: Villager class_1646['Villager'/88937, l='ServerLevel[world]', x=333.50, y=59.05, z=833.30] died, message: 'Villager suffocated in a wall'
-[16:24:06] [Server thread/INFO]: 3mkbody has made the advancement [Sound of Music]
-[16:24:51] [Server thread/INFO]: 3mkbody has made the advancement [Tactical Fishing]
-[16:27:28] [Server thread/INFO]: Villager class_1646['Villager'/91093, l='ServerLevel[world]', x=333.50, y=59.00, z=833.30] died, message: 'Villager suffocated in a wall'
-[16:29:57] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[16:29:57] [Server thread/INFO]: 3mkbody left the game
-[16:29:57] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
-[16:41:59] [Server thread/INFO]: Villager class_1646['Villager'/95516, l='ServerLevel[world]', x=333.50, y=59.00, z=833.30] died, message: 'Villager suffocated in a wall'
-[16:47:15] [Server thread/INFO]: Villager class_1646['Villager'/97361, l='ServerLevel[world]', x=333.57, y=58.00, z=833.38] died, message: 'Villager suffocated in a wall'
-[16:57:33] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:56854] logged in with entity id 104858 at (260.1141099611888, 75.0, 700.5007160560173)
-[16:57:33] [Server thread/INFO]: 3mkbody joined the game
-[16:57:39] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[16:57:39] [Server thread/INFO]: 3mkbody left the game
-[16:57:39] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
-[16:59:28] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:42602] logged in with entity id 105291 at (259.9881650782641, 75.0, 714.8410530238918)
-[16:59:28] [Server thread/INFO]: 3mkbody joined the game
-[17:01:55] [Server thread/INFO]: Villager class_1646['Villager'/101712, l='ServerLevel[world]', x=333.50, y=59.05, z=833.30] died, message: 'Villager suffocated in a wall'
-[17:02:52] [Server thread/INFO]: 3mkbody has made the advancement [The Parrots and the Bats]
-[17:07:11] [Server thread/INFO]: Villager class_1646['Villager'/102752, l='ServerLevel[world]', x=333.50, y=59.00, z=833.30] died, message: 'Villager suffocated in a wall'
-[17:19:20] [Server thread/INFO]: 3mkbody was slain by Zombie
-[17:21:11] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[17:21:11] [Server thread/INFO]: 3mkbody left the game
-[17:21:11] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
-[17:21:54] [Server thread/INFO]: Villager class_1646['Villager'/106076, l='ServerLevel[world]', x=333.50, y=59.05, z=833.30] died, message: 'Villager suffocated in a wall'
-[17:29:00] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:47698] logged in with entity id 113059 at (265.5, 81.5625, 689.5)
-[17:29:00] [Server thread/INFO]: 3mkbody joined the game
-[17:29:57] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[17:29:57] [Server thread/INFO]: 3mkbody left the game
-[17:29:57] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
-[17:30:34] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:39716] logged in with entity id 113606 at (276.9504871841639, 72.0, 783.8569983294577)
-[17:30:34] [Server thread/INFO]: 3mkbody joined the game
-[17:31:09] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[17:31:09] [Server thread/INFO]: 3mkbody left the game
-[17:31:09] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
-[17:35:15] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[17:35:15] [Server thread/INFO]: Tlfaz_Man left the game
-[17:35:15] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[17:40:13] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:39444] logged in with entity id 115626 at (259.80593860499476, 75.0, 683.6877979719602)
-[17:40:13] [Server thread/INFO]: 3mkbody joined the game
-[17:40:34] [Server thread/INFO]: [Not Secure] <Blub_14> eh yasta
-[17:40:43] [Server thread/INFO]: [Not Secure] <3mkbody> t3ala dis bsor3aaaaaaa
-[17:40:51] [Server thread/INFO]: [Not Secure] <Blub_14> get
-[17:42:32] [Server thread/INFO]: 3mkbody was shot by Skeleton
-[17:59:12] [Server thread/WARN]: 3mkbody moved too quickly! 7.8126303011598,1.127890238205481,6.2611065530072665
-[18:12:41] [Server thread/INFO]: Blub_14 lost connection: Timed out
-[18:12:41] [Server thread/INFO]: Blub_14 left the game
-[18:12:41] [Server thread/INFO]: [voicechat] Disconnecting client Blub_14
-[18:21:56] [Server thread/INFO]: 3mkbody burned to death
-[18:25:48] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[18:25:48] [Server thread/INFO]: 3mkbody left the game
-[18:25:48] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
+[11:43:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servers/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:43:51] [main/INFO]: Compatibility level set to JAVA_16
+[11:43:51] [main/INFO]: Compatibility level set to JAVA_17
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[11:43:51] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[11:43:51] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[11:43:51] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[11:43:51] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[11:43:52] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[11:43:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[11:43:52] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[11:43:52] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[11:43:52] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[11:43:52] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[11:43:53] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[11:43:53] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[11:43:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:44:10] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
+[11:44:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:44:13] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
+[11:44:17] [main/INFO]: Loaded 7 recipes
+[11:44:17] [main/INFO]: Loaded 1290 advancements
+[11:44:18] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 7.838 ms
+[11:44:18] [Server thread/INFO]: Starting background profiler...
+[11:44:21] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[11:44:21] [Server thread/INFO]: Loading properties
+[11:44:21] [Server thread/INFO]: Default game type: SURVIVAL
+[11:44:21] [Server thread/INFO]: Generating keypair
+[11:44:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:44:21] [Server thread/INFO]: Using epoll channel type
+[11:44:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:44:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:44:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:44:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:44:22] [Server thread/INFO]: Preparing level "world"
+[11:44:22] [Server thread/INFO]: Enforcing safe world random access
+[11:44:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:44:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:44:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[11:44:41] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[11:44:42] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[11:44:42] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[11:44:43] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[11:44:43] [Worker-Main-1/INFO]: Preparing spawn area: 12%
+[11:44:44] [Worker-Main-1/INFO]: Preparing spawn area: 13%
+[11:44:44] [Worker-Main-1/INFO]: Preparing spawn area: 13%
+[11:44:45] [Worker-Main-1/INFO]: Preparing spawn area: 13%
+[11:44:45] [Worker-Main-1/INFO]: Preparing spawn area: 17%
+[11:44:46] [Server thread/INFO]: Time elapsed: 16451 ms
+[11:44:46] [Server thread/INFO]: Done (24.141s)! For help, type "help"
+[11:45:54] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:51706] logged in with entity id 160 at (231.69999998807907, 1.0, -8.283820532297984)
+[11:45:55] [Server thread/INFO]: 3mkbody joined the game
+[12:13:44] [Server thread/INFO]: 3mkbody lost connection: Disconnected
+[12:13:44] [Server thread/INFO]: 3mkbody left the game
+[12:33:17] [Server thread/INFO]: Stopping the server
+[12:33:17] [Server thread/INFO]: Stopping server
+[12:33:17] [Server thread/INFO]: Saving players
+[12:33:17] [Server thread/INFO]: Saving worlds
+[12:33:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:33:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:33:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:33:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:33:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:33:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:33:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
