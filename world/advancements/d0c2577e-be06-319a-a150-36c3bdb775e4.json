@@ -25,6 +25,7 @@
       "minecraft:jungle": "2025-07-12 13:23:42 +0000",
       "minecraft:sunflower_plains": "2025-06-27 23:35:32 +0000",
       "minecraft:birch_forest": "2025-06-27 16:26:20 +0000",
+      "minecraft:windswept_hills": "2025-07-12 17:33:18 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-06-27 14:36:25 +0000",
       "minecraft:snowy_beach": "2025-07-08 23:58:36 +0000",
       "minecraft:bamboo_jungle": "2025-07-12 13:39:37 +0000",
@@ -549,7 +550,7 @@
     "criteria": {
       "cooked_porkchop": "2025-07-09 21:50:18 +0000",
       "bread": "2025-06-25 23:05:19 +0000",
-      "cooked_chicken": "2025-07-03 12:08:30 +0000",
+      "golden_apple": "2025-07-12 19:14:41 +0000",
       "rotten_flesh": "2025-07-02 12:41:53 +0000",
       "cooked_mutton": "2025-07-04 22:51:44 +0000",
       "glow_berries": "2025-06-27 16:16:44 +0000",
@@ -558,7 +559,8 @@
       "beef": "2025-07-02 22:52:46 +0000",
       "baked_potato": "2025-07-09 22:24:11 +0000",
       "beetroot": "2025-06-25 23:15:33 +0000",
-      "golden_carrot": "2025-07-08 21:39:27 +0000"
+      "golden_carrot": "2025-07-08 21:39:27 +0000",
+      "cooked_chicken": "2025-07-03 12:08:30 +0000"
     },
     "done": false
   },
@@ -855,26 +857,29 @@
       "minecraft:pillager": "2025-06-29 21:42:07 +0000",
       "minecraft:blaze": "2025-07-02 11:12:25 +0000",
       "minecraft:skeleton": "2025-06-26 00:30:56 +0000",
+      "minecraft:ravager": "2025-07-09 23:47:00 +0000",
+      "minecraft:ghast": "2025-07-02 11:07:57 +0000",
+      "minecraft:hoglin": "2025-07-08 23:33:56 +0000",
+      "minecraft:vindicator": "2025-07-09 23:48:32 +0000",
+      "minecraft:spider": "2025-06-26 00:00:14 +0000",
+      "minecraft:creeper": "2025-06-26 00:25:01 +0000",
+      "minecraft:wither": "2025-07-12 19:14:45 +0000",
+      "minecraft:evoker": "2025-07-09 23:50:19 +0000",
+      "minecraft:slime": "2025-07-12 17:40:31 +0000",
       "minecraft:phantom": "2025-06-30 00:52:48 +0000",
       "minecraft:zombified_piglin": "2025-07-01 18:32:27 +0000",
       "minecraft:witch": "2025-07-02 10:11:24 +0000",
       "minecraft:wither_skeleton": "2025-07-02 11:13:10 +0000",
-      "minecraft:ravager": "2025-07-09 23:47:00 +0000",
-      "minecraft:ghast": "2025-07-02 11:07:57 +0000",
-      "minecraft:hoglin": "2025-07-08 23:33:56 +0000",
       "minecraft:shulker": "2025-07-08 22:04:12 +0000",
       "minecraft:cave_spider": "2025-06-27 16:12:31 +0000",
       "minecraft:piglin": "2025-06-30 06:28:30 +0000",
-      "minecraft:vindicator": "2025-07-09 23:48:32 +0000",
       "minecraft:enderman": "2025-06-26 00:32:08 +0000",
       "minecraft:silverfish": "2025-07-02 11:40:53 +0000",
-      "minecraft:spider": "2025-06-26 00:00:14 +0000",
+      "minecraft:stray": "2025-07-12 17:56:36 +0000",
       "minecraft:vex": "2025-07-09 23:50:10 +0000",
       "minecraft:zombie": "2025-06-25 23:59:35 +0000",
-      "minecraft:creeper": "2025-06-26 00:25:01 +0000",
       "minecraft:drowned": "2025-06-27 16:26:59 +0000",
-      "minecraft:zombie_villager": "2025-07-09 16:48:25 +0000",
-      "minecraft:evoker": "2025-07-09 23:50:19 +0000"
+      "minecraft:zombie_villager": "2025-07-09 16:48:25 +0000"
     },
     "done": false
   },
@@ -7395,6 +7400,12 @@
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "tropical_fish_bucket": "2025-07-12 11:50:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-07-12 19:14:01 +0000"
     },
     "done": true
   },

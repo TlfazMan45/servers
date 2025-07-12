@@ -1,10 +1,10 @@
-[12:16:14] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
-[12:16:16] [main/WARN]: Warnings were found!
+[17:31:27] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
+[17:31:32] [main/WARN]: Warnings were found!
  - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends version 4.0.0 or later of modmenu, which is missing!
 	 - You should install version 4.0.0 or later of modmenu for the optimal experience.
  - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends any version of yet-another-config-lib, which is missing!
 	 - You should install any version of yet-another-config-lib for the optimal experience.
-[12:16:16] [main/INFO]: Loading 95 mods:
+[17:31:32] [main/INFO]: Loading 95 mods:
 	- c2me 0.2.0+alpha.11.72
 	   |-- c2me-base 0.2.0+alpha.11.72
 	   |-- c2me-client-uncapvd 0.2.0+alpha.11.72
@@ -114,120 +114,116 @@
 	- spark 1.10.58
 	- tpshud 1.7.0+1.20.3
 	   \-- me_obsilabor_alert 1.0.8
-[12:16:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servers/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:16:19] [main/INFO]: Compatibility level set to JAVA_16
-[12:16:19] [main/INFO]: Compatibility level set to JAVA_17
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[12:16:20] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:16:20] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[12:16:20] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[12:16:20] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[12:16:20] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[12:16:21] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[12:16:21] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
-[12:16:25] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[12:16:29] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[12:16:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12:16:44] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
-[12:16:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:16:49] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
-[12:16:54] [main/INFO]: Loaded 7 recipes
-[12:16:55] [main/INFO]: Loaded 1290 advancements
-[12:16:55] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.037 ms
-[12:16:57] [Server thread/INFO]: Starting background profiler...
-[12:16:59] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[12:16:59] [Server thread/INFO]: Loading properties
-[12:16:59] [Server thread/INFO]: Default game type: SURVIVAL
-[12:16:59] [Server thread/INFO]: Generating keypair
-[12:16:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:16:59] [Server thread/INFO]: Using epoll channel type
-[12:16:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:16:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:16:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:16:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:16:59] [Server thread/INFO]: Preparing level "world"
-[12:16:59] [Server thread/INFO]: Enforcing safe world random access
-[12:17:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:17:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:17:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[12:17:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[12:17:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[12:17:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[12:17:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:17:06] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[12:17:06] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[12:17:07] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[12:17:07] [Worker-Main-3/INFO]: Preparing spawn area: 40%
-[12:17:08] [Worker-Main-2/INFO]: Preparing spawn area: 69%
-[12:17:08] [Server thread/INFO]: Time elapsed: 5840 ms
-[12:17:08] [Server thread/INFO]: Done (9.111s)! For help, type "help"
-[12:17:16] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:43870] logged in with entity id 154 at (231.48784599476886, 1.0, -8.699999988079071)
-[12:17:16] [Server thread/INFO]: 3mkbody joined the game
-[12:17:16] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:43884] logged in with entity id 155 at (363.44950765638544, 78.9375, 3471.8961025935355)
-[12:17:17] [Server thread/INFO]: Tlfaz_Man joined the game
-[12:17:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8696ms or 173 ticks behind
-[12:18:33] [ForkJoinPool.commonPool-worker-1/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
-[12:18:34] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:39526] logged in with entity id 3705 at (1349.0731990982215, 83.95089081394912, -1636.5335591929968)
-[12:18:34] [Server thread/INFO]: Blub_14 joined the game
-[12:18:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3108ms or 62 ticks behind
-[12:18:59] [Server thread/INFO]: 3mkbody lost connection: Disconnected
-[12:18:59] [Server thread/INFO]: 3mkbody left the game
-[12:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1104, y=64, z=-1703} class_2338{x=1104, y=63, z=-1704}
-[12:20:33] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:38412] logged in with entity id 9012 at (232.186700075827, 1.0, -3.441514817031797)
-[12:20:33] [Server thread/INFO]: 3mkbody joined the game
-[12:21:25] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[12:21:25] [Server thread/INFO]: Tlfaz_Man left the game
-[12:24:03] [Server thread/INFO]: 3mkbody lost connection: Timed out
-[12:24:03] [Server thread/INFO]: 3mkbody left the game
-[12:24:04] [Server thread/WARN]: handleDisconnection() called twice
-[12:24:25] [Server thread/WARN]: Blub_14 moved too quickly! -5.3412558976995115,-1.87193857589601,16.645558931691085
-[12:26:18] [Server thread/WARN]: Blub_14 moved too quickly! -1.0492807762439043,-1.820480683892015,-17.518165420898185
-[12:26:43] [Server thread/WARN]: Blub_14 moved too quickly! 14.708592077760613,-2.347275989312209,-9.770579547680427
-[12:29:05] [Server thread/INFO]: Blub_14 lost connection: Timed out
-[12:29:05] [Server thread/INFO]: Blub_14 left the game
-[12:29:37] [ForkJoinPool.commonPool-worker-4/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
-[12:29:38] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:60846] logged in with entity id 19735 at (1743.9253484411586, -14.0, -3573.3477714738206)
-[12:29:38] [Server thread/INFO]: Blub_14 joined the game
-[12:31:56] [Server thread/WARN]: Blub_14 moved too quickly! -13.15591176007024,1.0722521111118262,-11.541639113970177
-[12:32:08] [Server thread/WARN]: Blub_14 moved too quickly! -17.303706349156528,-0.41923864165949,-2.8268178457460635
-[12:32:09] [Server thread/INFO]: [Not Secure] <Blub_14> tt
-[12:32:14] [Server thread/INFO]: Blub_14 was shot by Skeleton
-[12:32:47] [Server thread/WARN]: Blub_14 moved too quickly! 6.979364835065439,0.8322033533667508,7.284047398320439
-[12:36:06] [Server thread/WARN]: Blub_14 moved too quickly! -5.711405739255724,1.2491870787446828,-8.278605737953939
-[12:36:20] [Server thread/WARN]: Blub_14 moved too quickly! 6.235154715661793,0.49520087700592086,7.899424844426022
-[12:41:40] [Server thread/INFO]: Blub_14 was slain by Magma Cube
-[12:41:54] [Server thread/INFO]: Blub_14 lost connection: Disconnected
-[12:41:54] [Server thread/INFO]: Blub_14 left the game
-[13:15:53] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:53760] logged in with entity id 24243 at (2302.4771929942017, 63.0, 5147.201947392725)
-[13:15:53] [Server thread/INFO]: Tlfaz_Man joined the game
-[13:40:34] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[13:40:34] [Server thread/INFO]: Tlfaz_Man left the game
-[13:40:40] [Server thread/INFO]: Stopping the server
-[13:40:40] [Server thread/INFO]: Stopping server
-[13:40:40] [Server thread/INFO]: Saving players
-[13:40:40] [Server thread/INFO]: Saving worlds
-[13:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:31:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servers/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:31:36] [main/INFO]: Compatibility level set to JAVA_16
+[17:31:36] [main/INFO]: Compatibility level set to JAVA_17
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:31:37] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:31:37] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:31:37] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:31:37] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[17:31:37] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[17:31:37] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[17:31:37] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[17:31:38] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[17:31:39] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[17:31:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:31:52] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
+[17:31:53] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:31:54] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
+[17:31:57] [main/INFO]: Loaded 7 recipes
+[17:31:57] [main/INFO]: Loaded 1290 advancements
+[17:31:58] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.604 ms
+[17:31:58] [Server thread/INFO]: Starting background profiler...
+[17:31:59] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:31:59] [Server thread/INFO]: Loading properties
+[17:31:59] [Server thread/INFO]: Default game type: SURVIVAL
+[17:31:59] [Server thread/INFO]: Generating keypair
+[17:31:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:31:59] [Server thread/INFO]: Using epoll channel type
+[17:31:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:31:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:31:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:31:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:31:59] [Server thread/INFO]: Preparing level "world"
+[17:32:00] [Server thread/INFO]: Enforcing safe world random access
+[17:32:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:32:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:32:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:32:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:10] [Server thread/INFO]: Preparing spawn area: 0%
+[17:32:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:32:11] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[17:32:12] [Worker-Main-1/INFO]: Preparing spawn area: 11%
+[17:32:12] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[17:32:13] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[17:32:13] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[17:32:14] [Worker-Main-1/INFO]: Preparing spawn area: 38%
+[17:32:14] [Worker-Main-1/INFO]: Preparing spawn area: 46%
+[17:32:15] [Worker-Main-1/INFO]: Preparing spawn area: 56%
+[17:32:15] [Worker-Main-1/INFO]: Preparing spawn area: 76%
+[17:32:15] [Server thread/INFO]: Time elapsed: 9080 ms
+[17:32:15] [Server thread/INFO]: Done (15.715s)! For help, type "help"
+[17:32:53] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:34608] logged in with entity id 170 at (-3710.216204377953, 106.0, 12897.76905936669)
+[17:32:53] [Server thread/INFO]: Tlfaz_Man joined the game
+[17:32:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3099ms or 61 ticks behind
+[17:37:19] [Server thread/WARN]: Tlfaz_Man moved too quickly! 17.46022839981879,-1.6121704193399182,-0.3784281107909919
+[17:41:53] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[17:41:53] [Server thread/INFO]: Tlfaz_Man left the game
+[17:43:39] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:43750] logged in with entity id 10750 at (-3812.1891740680435, 70.875, 11910.509012735432)
+[17:43:39] [Server thread/INFO]: Tlfaz_Man joined the game
+[17:49:16] [Server thread/WARN]: Tlfaz_Man moved too quickly! -2.6689334579887145,-1.6093119124712132,-17.617783709265495
+[17:55:27] [Server thread/WARN]: Tlfaz_Man moved too quickly! 13.851046085626422,-1.7940456047853672,-10.88648940290659
+[18:03:37] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[18:03:37] [Server thread/INFO]: Tlfaz_Man left the game
+[18:42:36] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:53812] logged in with entity id 35723 at (497.1164247644507, 86.0, 1059.9664725099099)
+[18:42:36] [Server thread/INFO]: Tlfaz_Man joined the game
+[18:49:31] [Server thread/INFO]: Villager class_1646['Villager'/35992, l='ServerLevel[world]', x=331.74, y=62.48, z=833.70] died, message: 'Villager was squished too much'
+[18:50:11] [Server thread/INFO]: Villager class_1646['Villager'/35986, l='ServerLevel[world]', x=331.74, y=62.36, z=833.70] died, message: 'Villager was squished too much'
+[18:50:12] [Server thread/INFO]: Villager class_1646['Villager'/35959, l='ServerLevel[world]', x=331.85, y=62.28, z=833.70] died, message: 'Villager was squished too much'
+[18:51:35] [Server thread/INFO]: Villager class_1646['Villager'/35989, l='ServerLevel[world]', x=331.83, y=62.41, z=833.11] died, message: 'Villager was squished too much'
+[18:55:29] [Server thread/INFO]: Villager class_1646['Villager'/40958, l='ServerLevel[world]', x=369.50, y=60.00, z=815.51] died, message: 'Villager tried to swim in lava'
+[18:55:35] [Server thread/INFO]: Villager class_1646['Villager'/41278, l='ServerLevel[world]', x=331.30, y=62.18, z=833.70] died, message: 'Villager was squished too much'
+[18:58:37] [Server thread/INFO]: Villager class_1646['Villager'/41275, l='ServerLevel[world]', x=341.50, y=62.56, z=813.50] died, message: 'Villager was slain by Zombie'
+[19:00:32] [Server thread/INFO]: Villager class_1646['Villager'/41277, l='ServerLevel[world]', x=341.51, y=63.93, z=813.50] died, message: 'Villager was slain by Zombie'
+[19:14:01] [Server thread/INFO]: Tlfaz_Man has made the advancement [Withering Heights]
+[20:25:42] [Server thread/INFO]: Villager class_1646['Villager'/55420, l='ServerLevel[world]', x=331.69, y=62.40, z=833.13] died, message: 'Villager was squished too much'
+[21:09:49] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[21:09:49] [Server thread/INFO]: Tlfaz_Man left the game
+[21:09:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:09:55] [Server thread/INFO]: SOTP<--[HERE]
+[21:09:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:09:57] [Server thread/INFO]: STOP<--[HERE]
+[21:09:58] [Server thread/INFO]: Stopping the server
+[21:09:58] [Server thread/INFO]: Stopping server
+[21:09:58] [Server thread/INFO]: Saving players
+[21:09:58] [Server thread/INFO]: Saving worlds
+[21:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:09:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
